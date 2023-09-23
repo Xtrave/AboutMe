@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView2"
@@ -22,23 +20,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/btn_star_big_on"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/todo" />
-
-    <ScrollView
-        android:id="@+id/bio_scroll"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="ScrollViewCount">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/bio"
-            android:lineSpacingMultiplier="1.2"
-            style="@style/NameStyle"
-            />
-
-    </ScrollView>
-
+        android:contentDescription="@string/yellow_star"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>
